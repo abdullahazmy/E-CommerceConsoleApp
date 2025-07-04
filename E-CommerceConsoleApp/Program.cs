@@ -235,7 +235,6 @@
         }
     }
 
-    // Example usage
     class Program
     {
         static void Main(string[] args)
@@ -317,7 +316,7 @@
 
             // Test case 6: Mixed products with shipping
             Console.WriteLine("Test Case 6: Mixed products with shipping");
-            customer.Balance = 20000m; // Add more balance
+            customer.Balance = 20000m;
             var cart6 = new ShoppingCart();
             cart6.Add(cheese, 1);
             cart6.Add(tv, 1);
@@ -333,3 +332,11 @@
         }
     }
 }
+
+
+/*
+ * Plese NOTE:
+ * I used Service Pattern here, which is a common design pattern in C# applications.
+ * Is used to encapsulate business logic and operations, making the code cleaner and more maintainable.
+ * I did't separate the interfaces, and Services into different files for simplicity, but in a real-world application, it would be better to do so.
+ */
