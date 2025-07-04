@@ -117,6 +117,8 @@ Receipt is printed to the console with:
 - Subtotal and shipping fee
 - Total cost and remaining balance
 
+![image](https://github.com/user-attachments/assets/b752fdef-8cfa-443d-854e-7ca9bb4ca0f6)
+
 ---
 
 > Thank You
